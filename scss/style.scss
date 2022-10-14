@@ -1,9 +1,13 @@
+/* import */
+
 @import "reset";
 @import "base";
 @import "utils";
 @import "classes";
 @import "animations";
 @import "media-queries";
+
+/* grid */
 
 .grid-container {
   display: grid;
@@ -22,6 +26,8 @@
       / auto;
   }
 }
+
+/* header */
 
 header {
   grid-area: header;
@@ -65,6 +71,8 @@ header {
     border-radius: 50%;
   }
 }
+
+/* aside */
 
 aside {
   grid-area: aside;
@@ -149,6 +157,8 @@ aside {
   }
 }
 
+/* main */
+
 main {
   grid-area: main;
   padding: 5rem;
@@ -198,6 +208,8 @@ main {
     }
   }
 }
+
+/* footer */
 
 footer {
   grid-area: footer;

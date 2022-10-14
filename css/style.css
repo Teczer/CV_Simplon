@@ -232,6 +232,13 @@ main p {
   letter-spacing: 0.1rem;
   line-height: 3rem;
 }
+main p span {
+  display: inline-block;
+  font-weight: bold;
+}
+main p span .italical {
+  font-style: italic;
+}
 main .experience {
   display: flex;
   margin: 6rem 0;

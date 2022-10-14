@@ -158,6 +158,13 @@ main {
   p {
     letter-spacing: 0.1rem;
     line-height: 3rem;
+    span {
+      display: inline-block;
+      font-weight: bold;
+      .italical {
+        font-style: italic;
+      }
+    }
   }
   .experience {
     display: flex;
